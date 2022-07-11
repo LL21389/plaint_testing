@@ -4,6 +4,8 @@
 #include<utility>
 
 using namespace std;
+//O(nlogn) method, since we need to return the first occurance char when multiple max exist, 
+//index of char also need to be track;
 char topFreqElement(const string s){
     auto hashmap = unordered_map<char, pair<int, int>>{};
     auto maxpq = priority_queue<pair<int, int>>{};
