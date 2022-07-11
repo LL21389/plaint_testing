@@ -1,0 +1,37 @@
+Case 1:
+test if login with incorrect info will be rejected by server
+
+Case 2:
+test if login with all valid info will be accepted by server
+
+Case 3:
+test if click "buying" of an item will be added into cart;
+
+Case 4:
+test if modifying quantity of an item will correctly affect the total of cart.
+
+Case 5:
+test if "action" button of items in the cart functions correctly. it should remove the item
+when user click "yes" in the popup and not remove item when user click "no"
+
+Case 5:
+Check if "Empty Cart" button in car functions correctly; it should remove all the items
+when user click "yes" in the popup and not remove any items when user click "no"
+
+Case 6:
+Check if Check Out button direct to the delivery and payment detail page
+
+Case 7:
+Check submit button functions correctly with missing required field. it should highlight
+every required field which is missing input and stop processing order.
+
+Case 8:
+Check submit button functions correctly with all required fields being filled.
+It should process the order and return and order number
+
+Case 9:
+Check the submit button in the Contact page functions correctly with missing required fields.
+It should highlight every required field which is missing input.
+
+Case 10: Check the submit button in Contact page functions correctly with all required being filled.
+It should send info inputted by the user to the server.

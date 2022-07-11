@@ -60,8 +60,8 @@ pair<bool, int> validFib(int n){
 
 int main(){
     int i = 13;
-    auto result = validFib(4);
+    auto result = validFib(6);
     cout<<result.first<< ','<<result.second <<endl;
-    cout<<getFibNumOrIndex(9, "fib")<<endl;
+    cout<<getFibNumOrIndex(7, "index")<<endl;
     return 0;
 }
